@@ -94,5 +94,5 @@ def remove_paste(slug,slug2):
 
 
 
-
-app_start('0.0.0.0',6060)
+if __name__ == '__main__':
+	app.run(host='0.0.0.0', port=6060)
